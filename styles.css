@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: beige;
+}
+
+img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 25px;
+  }
+
+h1 {
+    text-align: center;
+    list-style-type: none;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+button, .vertical-center {
+    font-size: 22px;
+    list-style-type: none;
+    text-align: center;
+}
+
+h2, h4, ul, li, p, .home {
+    max-width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
