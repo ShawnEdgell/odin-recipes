@@ -1,33 +1,27 @@
 * {
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: beige;
+    flex: auto
 }
 
 img {
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 26px auto;
     width: 60%;
-    padding-bottom: 25px;
   }
 
-h1 {
-    text-align: center;
-    list-style-type: none;
+button {
     font-size: 32px;
-    font-weight: bolder;
+    border: 3px solid black;
+    background-color: wheat;
+    width: auto;
 }
 
-button, .vertical-center {
-    font-size: 22px;
-    list-style-type: none;
+.vertical-center, h1 {
     text-align: center;
 }
 
-h2, h4, ul, li, p, .home {
-    max-width: 550px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+    font-size: 42px;
 }
