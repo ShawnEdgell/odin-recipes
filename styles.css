@@ -30,7 +30,7 @@ h1 {
     grid-column: 2;
     display: flex;
     justify-content: center;
-    font-size: 48px;
+    font-size: 6vw;
     font-family: 'Shrikhand', sans-serif;
     color: white;
     font-weight: 400;
@@ -91,6 +91,10 @@ img {
         gap: 2%;
     }
 
+    .photos-container {
+        gap: 0px;
+    }
+
     .photos-display img {
         width: 90%;
         height: 90%;
@@ -123,5 +127,6 @@ img {
     h1 {
         grid-column: 1;
         padding-top: 50px;
+        font-size: 64px;
     }
 }
