@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Photo App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="images/1.jpg" alt="chef">
-        <div class="vertical-center">
-        <a href="./recipes/lasagna.html"><button>Lasagna</button></a>
-        <a href="./recipes/chili.html"><button>Chili</button></a>            
-        <a href="./recipes/soup.html"><button>Soup</button></a>
+    <div class="photos-container">
+        <h1>Recipes</h1>
+        <div class="photos-display">
+            <div class="image">
+                <a href="recipes/lasagna.html"><img src="images/lasagna.jpg" alt="Image 1"></a>
+            </div>
+            <div class="image">
+                <a href="recipes/chili.html"><img src="images/chili.jpg" alt="Image 2"></a>
+            </div>
+            <div class="image">
+                <a href="recipes/soup.html"><img src="images/soup.jpg" alt="Image 3"></a>
+            </div>
+            <!-- ... add as many photos as you have -->
         </div>
+    </div>
 </body>
-</html
+<script src="app.js"></script>
+</html>
